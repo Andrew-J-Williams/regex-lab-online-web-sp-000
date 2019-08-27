@@ -16,7 +16,7 @@ end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
   if text.match(/^[A-Z].+\.$/) #Checks if the beginning is a capital letter, includes any character in the sentence (. indicator),
-    # then says that 
+    # then says that if the end of the setence ($) matches a period (\.) return true.
     return true
   else
     return false
