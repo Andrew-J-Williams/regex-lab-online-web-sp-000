@@ -15,7 +15,8 @@ def words_five_letters_long(text)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-  if text.match(/^[A-Z].+\.$/)
+  if text.match(/^[A-Z].+\.$/) #Checks if the beginning is a capital letter, includes any character in the sentence (. indicator),
+    # then says that 
     return true
   else
     return false
